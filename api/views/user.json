@@ -1,0 +1,12 @@
+{
+  "id" : {},
+  "username" : {},
+  "email" : {},
+  "active" : {},
+  "createdAt" : {
+    "format" : "date"
+  },
+  "updatedAt" : {
+    "format" : "date"
+  }
+}

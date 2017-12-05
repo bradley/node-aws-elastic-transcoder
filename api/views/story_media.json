@@ -1,0 +1,17 @@
+{
+  "id" : {},
+  "key" : {},
+  "url" : {},
+  "type" : {},
+  "width" : {},
+  "height" : {},
+  "duration" : {},
+  "active" : {},
+  "createdAt" : {
+    "format" : "date"
+  },
+  "updatedAt" : {
+    "format" : "date"
+  },
+  "storyId" : {}
+}
