@@ -14,6 +14,18 @@ The basic concept for this application is that the application has users and tha
 
 This application provides an API that works along a client application as a service and persistence layer for storing user and transcoded video information. This application oversees the lifecycle of video uploads as they move from the client application, through AWS, and back to the persistence layer provided herein.
 
+Some technical aspects of this application:
+- Secure handling of AWS access for client (no storing AWS creds in client app)
+- AWS SNS validation
+- Secure handling of ENV variables
+- JWT based user authentication for API use (using Passport)
+- Postgres database (using Sequelize as ORM)
 
-
-
+## Documentation
+- [Local Setup and Development](https://github.com/bradley/node-aws-elastic-transcoder/wiki/Local-Setup-and-Development)
+- [API](https://github.com/bradley/node-aws-elastic-transcoder/wiki/API)
+  - [User](https://github.com/bradley/node-aws-elastic-transcoder/wiki/API#user-1)
+  - [Session](https://github.com/bradley/node-aws-elastic-transcoder/wiki/API#session-1)
+  - [StoryJob](https://github.com/bradley/node-aws-elastic-transcoder/wiki/API#storyjob-1)
+  - [Story](https://github.com/bradley/node-aws-elastic-transcoder/wiki/API#story-1)
+- [Story Upload Flow](https://github.com/bradley/node-aws-elastic-transcoder/wiki/Story-Upload-Flow)
